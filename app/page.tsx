@@ -1,8 +1,9 @@
+import Static from "./Static";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-
+    <main className=" bg-gray-100 ">
+      <Static/>
     </main>
   )
 }
