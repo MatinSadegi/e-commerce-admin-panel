@@ -9,43 +9,48 @@ import {
   PointElement,
   ChartData,
   ScaleChartOptions,
-  ScaleOptionsByType
-
+  ScaleOptionsByType,
 } from "chart.js";
 ChartJS.register(LineElement, LinearScale, CategoryScale, PointElement);
 
-const RevenueChart = () => {
+const Earning = () => {
   let data: ChartData<"line", (number | [number, number] | null)[], unknown>;
   data = {
-    labels: ["Jan", "Feb", "Mar", "April", "May", "Jun"],
+    labels: ["Feb", "Mar", "April", "May", "Jun", "Jul", "Aug", "Sep", "Oct"],
     datasets: [
       {
-        data: [60, 70, 54, 51, 42, 109],
+        data: [35, 41, 62, 42, 13, 18, 29, 37,35],
         borderColor: "#0da487",
         pointStyle: "line",
-        tension: 0.3,
+
+        fill: false,
+      },
+      {
+        data: [87, 57, 74, 99, 75, 38, 62, 47,49],
+        borderColor: "#1c6aa9",
+        pointStyle: "line",
         fill: false,
       },
     ],
   };
 
-//   options = {
-//     scales:{
-//         x:{
-//             grid:{
-//                 display:false
-//             }
-//         }
-//     }
-//   }
+  //   options = {
+  //     scales:{
+  //         x:{
+  //             grid:{
+  //                 display:false
+  //             }
+  //         }
+  //     }
+  //   }
   return (
     <section className=" section-style">
-      <h3 className="text-gray-700 mb-4">Revenue Report</h3>
+      <h3 className="text-gray-700 mb-4">Earning</h3>
       <div className="">
-        <Line data={data}  />
+        <Line data={data} />
       </div>
     </section>
   );
 };
 
-export default RevenueChart;
+export default Earning;

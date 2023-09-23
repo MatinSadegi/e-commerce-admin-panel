@@ -11,7 +11,7 @@ const BestSelling = () => {
           <Image width={65} height={65} src={hoodi} alt="hoodi" />
           <div className='ml-3'>
             <p className='text-sm font-medium'>North Face Drew</p>
-            <span className="text-gray-500 text-xs text-gray-500">
+            <span className="text-gray-500 text-xs ">
               26-08-2022
             </span>
           </div>
@@ -38,7 +38,7 @@ const BestSelling = () => {
           <Image width={65} height={65} src={hoodi} alt="hoodi" />
           <div className='ml-3'>
             <p className='text-sm font-medium'>North Face Drew</p>
-            <span className="text-gray-500 text-xs text-gray-500">
+            <span className="text-gray-500 text-xs ">
               26-08-2022
             </span>
           </div>
@@ -65,7 +65,7 @@ const BestSelling = () => {
           <Image width={65} height={65} src={hoodi} alt="hoodi" />
           <div className='ml-3'>
             <p className='text-sm font-medium'>North Face Drew</p>
-            <span className="text-gray-500 text-xs text-gray-500">
+            <span className="text-gray-500 text-xs ">
               26-08-2022
             </span>
           </div>

@@ -22,6 +22,6 @@ p {
 
 @layer components {
   .section-style{
-    @apply bg-white mt-7 p-7 rounded-md transition-all duration-500 hover:-translate-y-1.5 hover:shadow-lg 
+    @apply bg-white mt-7 p-7 rounded-xl transition-all duration-500 hover:-translate-y-1.5 hover:shadow-lg 
   }
 }
