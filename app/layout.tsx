@@ -21,9 +21,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${publicSans.className} grid grid-cols-[1fr_5fr]`}>
+      <body className={`${publicSans.className} grid grid-cols-[1fr_5fr] `}>
         <SideBar />
-        <div className="w-full ">
+        <div className="h-screen overflow-scroll">
           <TopBar/>
           {children}
         </div>

@@ -11,7 +11,7 @@ import jacket from '@/public/icons/jacket-illustration-2-svgrepo-com.svg'
 
 const Category = () => {
   return (
-    <section className=" bg-white mt-7 p-7 rounded-md transition-all duration-500 hover:-translate-y-1.5 hover:shadow-lg">
+    <section className=" section-style">
       <h3 className="text-gray-700 mb-1">Category</h3>
       <ul className="text-gray-600 flex justify-between text-center">
         <li className=' cursor-pointer'>
