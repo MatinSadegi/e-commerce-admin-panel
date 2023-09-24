@@ -9,7 +9,7 @@ import chatIcon from "@/public/icons/chat-round-svgrepo-com.svg";
 import userPlus from "@/public/icons/user-plus-svgrepo-com.svg";
 const Static = () => {
   return (
-    <section className="grid grid-cols-4  gap-4">
+    <section className="grid grid-cols-2 xl:grid-cols-4  gap-4">
       <div className="bg-white p-6 rounded-lg flex justify-between items-center transition-all duration-500 hover:shadow-xl hover:-translate-y-1.5 ">
         <div className="border-l-[3px] border-green-600 pl-4">
           <h3 className=" text-gray-400">Total Revenue</h3>

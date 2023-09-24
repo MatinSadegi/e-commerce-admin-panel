@@ -2,14 +2,12 @@ import React from "react";
 
 const RecentOrder = () => {
   return (
-    <section className=" section-style">
+    <section className=" section-style overflow-x-scroll scrollbar">
       <h3 className="text-gray-700 mb-4">Recent Orders</h3>
-      <div className="flex items-center  justify-between  border-t py-4">
+      <div className="flex items-center  justify-between min-w-[550px]  border-t py-4">
         <div>
           <p className="text-sm font-medium">North Face Drew</p>
-          <span className="text-gray-500 text-xs ">
-            #64548
-          </span>
+          <span className="text-gray-500 text-xs ">#64548</span>
         </div>
         <div>
           <p className="text-xs font-medium">Date Placed</p>
@@ -28,12 +26,10 @@ const RecentOrder = () => {
           <span className="text-sm text-green-500">Paid</span>
         </div>
       </div>
-      <div className="flex items-center  justify-between  border-t py-4">
+      <div className="flex items-center  justify-between min-w-[550px]  border-t py-4">
         <div>
           <p className="text-sm font-medium">North Face Drew</p>
-          <span className="text-gray-500 text-xs ">
-            #64548
-          </span>
+          <span className="text-gray-500 text-xs ">#64548</span>
         </div>
         <div>
           <p className="text-xs font-medium">Date Placed</p>
@@ -52,12 +48,10 @@ const RecentOrder = () => {
           <span className="text-sm text-green-500">Paid</span>
         </div>
       </div>
-      <div className="flex items-center  justify-between  border-t py-4">
+      <div className="flex items-center  justify-between min-w-[550px]  border-t py-4">
         <div>
           <p className="text-sm font-medium">North Face Drew</p>
-          <span className="text-gray-500 text-xs ">
-            #64548
-          </span>
+          <span className="text-gray-500 text-xs ">#64548</span>
         </div>
         <div>
           <p className="text-xs font-medium">Date Placed</p>
@@ -76,12 +70,10 @@ const RecentOrder = () => {
           <span className="text-sm text-green-500">Paid</span>
         </div>
       </div>
-      <div className="flex items-center  justify-between  border-t py-4">
+      <div className="flex items-center  justify-between min-w-[550px]  border-t py-4">
         <div>
           <p className="text-sm font-medium">North Face Drew</p>
-          <span className="text-gray-500 text-xs ">
-            #64548
-          </span>
+          <span className="text-gray-500 text-xs ">#64548</span>
         </div>
         <div>
           <p className="text-xs font-medium">Date Placed</p>

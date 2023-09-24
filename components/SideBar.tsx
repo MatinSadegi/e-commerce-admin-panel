@@ -25,7 +25,7 @@ const SideBar = () => {
   const [openOrder, setOpenOrder] = useState(false);
   const [openCoupon, setOpenCoupon] = useState(false);
   return (
-    <div className=" h-screen overflow-hidden bg-gradient-teal p-5 ">
+    <div className=" h-screen absolute w-[250px] lg:static lg:w-full overflow-hidden bg-gradient-teal p-5 ">
       <div className="flex justify-between">
         <h2 className="text-white">Koal</h2>
         <Image src={dashboardIcon} alt="dashboard-icon" />

@@ -1,8 +1,10 @@
+
 import SideBar from "@/components/SideBar";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Public_Sans } from "next/font/google";
 import TopBar from "@/components/TopBar";
+
 
 const publicSans = Public_Sans({
   subsets: ["latin"],
@@ -21,7 +23,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${publicSans.className} grid grid-cols-[1fr_5fr] `}>
+      <body className={`${publicSans.className} grid lg:grid-cols-[250px_5fr] `}>
         <SideBar />
         <div className="h-screen overflow-scroll">
           <TopBar/>
@@ -30,4 +32,4 @@ export default function RootLayout({
       </body>
     </html>
   );
-}
+}  

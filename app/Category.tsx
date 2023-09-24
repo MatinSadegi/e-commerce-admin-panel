@@ -11,10 +11,10 @@ import jacket from '@/public/icons/jacket-illustration-2-svgrepo-com.svg'
 
 const Category = () => {
   return (
-    <section className=" section-style">
+    <section className=" section-style overflow-x-scroll scrollbar scrollbar-thumb-gray-300   ">
       <h3 className="text-gray-700 mb-1">Category</h3>
-      <ul className="text-gray-600 flex justify-between text-center">
-        <li className=' cursor-pointer'>
+      <ul className="text-gray-600 min-w-[1000px] flex gap-5 justify-between text-center ">
+        <li className=" cursor-pointer">
           <div className="p-4 my-2 rounded-lg bg-gray-100 w-fit group hover:bg-gradient-teal">
             <Image
               src={shoeIcon}
@@ -24,7 +24,7 @@ const Category = () => {
           </div>
           <span className="text-sm">Shoes</span>
         </li>
-        <li className=' cursor-pointer'>
+        <li className=" cursor-pointer">
           <div className="p-4 my-2 rounded-lg bg-gray-100 w-fit group hover:bg-gradient-teal ">
             <Image
               src={tshirt}

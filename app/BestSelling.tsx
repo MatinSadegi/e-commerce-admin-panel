@@ -4,16 +4,14 @@ import hoodi from '@/public/images/The-North-Face-Drew-Peak-Grey_NF00AHJYLXS1_1_
 
 const BestSelling = () => {
   return (
-    <section className="section-style">
+    <section className="section-style overflow-x-scroll scrollbar    ">
       <h3 className="text-gray-700 mb-4">Best Selling Product</h3>
-      <div className="flex items-center  justify-between  border-t py-4">
+      <div className="flex items-center  justify-between min-w-[550px]  border-t py-4">
         <div className="flex items-center">
           <Image width={65} height={65} src={hoodi} alt="hoodi" />
-          <div className='ml-3'>
-            <p className='text-sm font-medium'>North Face Drew</p>
-            <span className="text-gray-500 text-xs ">
-              26-08-2022
-            </span>
+          <div className="ml-3">
+            <p className="text-sm font-medium">North Face Drew</p>
+            <span className="text-gray-500 text-xs ">26-08-2022</span>
           </div>
         </div>
         <div>
@@ -33,14 +31,12 @@ const BestSelling = () => {
           <span className="text-sm text-gray-500">$1.798</span>
         </div>
       </div>
-      <div className="flex items-center  justify-between  border-t py-6">
+      <div className="flex items-center  justify-between min-w-[550px] border-t py-6">
         <div className="flex items-center">
           <Image width={65} height={65} src={hoodi} alt="hoodi" />
-          <div className='ml-3'>
-            <p className='text-sm font-medium'>North Face Drew</p>
-            <span className="text-gray-500 text-xs ">
-              26-08-2022
-            </span>
+          <div className="ml-3">
+            <p className="text-sm font-medium">North Face Drew</p>
+            <span className="text-gray-500 text-xs ">26-08-2022</span>
           </div>
         </div>
         <div>
@@ -60,14 +56,12 @@ const BestSelling = () => {
           <span className="text-sm text-gray-500">$1.798</span>
         </div>
       </div>
-      <div className="flex items-center  justify-between  border-t py-6">
+      <div className="flex items-center  justify-between min-w-[550px] border-t py-6">
         <div className="flex items-center">
           <Image width={65} height={65} src={hoodi} alt="hoodi" />
-          <div className='ml-3'>
-            <p className='text-sm font-medium'>North Face Drew</p>
-            <span className="text-gray-500 text-xs ">
-              26-08-2022
-            </span>
+          <div className="ml-3">
+            <p className="text-sm font-medium">North Face Drew</p>
+            <span className="text-gray-500 text-xs ">26-08-2022</span>
           </div>
         </div>
         <div>

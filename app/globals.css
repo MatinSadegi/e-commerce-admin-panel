@@ -25,3 +25,23 @@ p {
     @apply bg-white mt-7 p-7 rounded-xl transition-all duration-500 hover:-translate-y-1.5 hover:shadow-lg 
   }
 }
+
+@layer utilities {
+  .scrollbar::-webkit-scrollbar {
+    width: 10px;
+    height: 18px;
+    
+  }
+
+  
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    background: #0d948966;
+    border-radius: 10px;
+    border: 6px solid white;
+  }
+  .scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #0d94898d;
+  }
+
+}
