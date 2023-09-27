@@ -2,9 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-h2 {
+h1 {
   font-weight: 700;
   font-size: 2rem;
+}
+h2 {
+  font-weight: 600;
+  font-size: 1.2rem;
 }
 h3 {
   font-weight: 500;
@@ -16,32 +20,39 @@ h4 {
 }
 p {
   font-weight: 400;
-
 }
 
-
 @layer components {
-  .section-style{
-    @apply bg-white mt-7 p-7 rounded-xl transition-all duration-500 hover:-translate-y-1.5 hover:shadow-lg 
+  .section-style {
+    @apply bg-white mt-7 p-7 rounded-xl transition-all duration-500 hover:-translate-y-1.5 hover:shadow-lg;
+  }
+  .input-style {
+    @apply bg-gray-100 w-2/3 p-2.5 rounded placeholder:text-gray-400 text-sm font-light outline-none;
+  }
+  .input-div-style {
+    @apply flex justify-between items-center mt-5;
   }
 }
 
 @layer utilities {
   .scrollbar::-webkit-scrollbar {
-    width: 10px;
-    height: 18px;
-    
+    width: 8px;
+    height: 8px;
   }
-
-  
-
   .scrollbar::-webkit-scrollbar-thumb {
     background: #0d948966;
     border-radius: 10px;
-    border: 6px solid white;
   }
   .scrollbar::-webkit-scrollbar-thumb:hover {
     background: #0d94898d;
+  }
+  .input::file-selector-button {
+    border: none;
+    padding: 7px;
+    border-radius: 7px 0px 0 7px;
+    background-color: #e5e7eb;
+    padding-right: 10px;
+    cursor: pointer;
   }
 
 }

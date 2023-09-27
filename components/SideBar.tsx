@@ -27,13 +27,13 @@ const SideBar = () => {
   return (
     <div className=" h-screen absolute w-[250px] lg:static lg:w-full overflow-hidden bg-gradient-teal p-5 ">
       <div className="flex justify-between">
-        <h2 className="text-white">Koal</h2>
+        <h1 className="text-white">Koal</h1>
         <Image src={dashboardIcon} alt="dashboard-icon" />
       </div>
 
       <ul className="text-white my-4 flex flex-col gap-3">
         <li className=" p-2 rounded-md bg-[rgba(255,255,255,0.1)] ">
-          <Link href="/#" className="flex items-center gap-1">
+          <Link href="/" className="flex items-center gap-1">
             <Image src={homeIcon} alt="home-icon" />
             <span>Dashboard</span>
           </Link>
@@ -59,11 +59,11 @@ const SideBar = () => {
               openProduct ? "h-12 mt-2" : " h-0 mt-0"
             }`}
           >
-            <Link className="flex items-center gap-3" href="/#">
+            <Link className="flex items-center gap-3" href="/products">
               <Image src={negativeIcon} alt="negative-icon" />
               <span>Products</span>
             </Link>
-            <Link className="flex items-center gap-3 mt-1.5" href="/#">
+            <Link className="flex items-center gap-3 mt-1.5" href="/add-new-product">
               <Image src={negativeIcon} alt="negative-icon" />
               <span>Add New Product</span>
             </Link>
