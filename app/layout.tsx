@@ -25,7 +25,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${publicSans.className} grid lg:grid-cols-[250px_5fr] `}>
         <SideBar />
-        <div className="h-screen overflow-scroll">
+        <div className="h-screen overflow-y-auto">
           <TopBar/>
           {children}
         </div>

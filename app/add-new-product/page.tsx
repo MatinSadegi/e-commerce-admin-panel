@@ -10,7 +10,7 @@ const AddNewProduct = () => {
   const inventory = ['In Stock','Out Of Stock']
 
   return (
-    <div className=" bg-gray-100 p-5 flex flex-col items-center gap-5">
+    <div className=" bg-gray-100 p-5 pt-32 flex flex-col items-center gap-5">
       <section className=" bg-white w-[60%] p-4 rounded-xl ">
         <h2>Product Information</h2>
         <div className="input-div-style">

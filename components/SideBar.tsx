@@ -93,7 +93,7 @@ const SideBar = () => {
               <Image src={negativeIcon} alt="negative-icon" />
               <span>Category List</span>
             </Link>
-            <Link className="flex items-center gap-3 mt-1.5" href="/#">
+            <Link className="flex items-center gap-3 mt-1.5" href="/add-new-category">
               <Image src={negativeIcon} alt="negative-icon" />
               <span>Add New Category</span>
             </Link>
@@ -149,11 +149,11 @@ const SideBar = () => {
               openUser ? "h-12 mt-2" : " h-0 mt-0"
             }`}
           >
-            <Link className="flex items-center gap-3" href="/#">
+            <Link className="flex items-center gap-3" href="/users">
               <Image src={negativeIcon} alt="negative-icon" />
               <span>All Users</span>
             </Link>
-            <Link className="flex items-center gap-3 mt-1.5" href="/#">
+            <Link className="flex items-center gap-3 mt-1.5" href="/add-new-user">
               <Image src={negativeIcon} alt="negative-icon" />
               <span>Add New User</span>
             </Link>

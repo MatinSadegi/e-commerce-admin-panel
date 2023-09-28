@@ -6,7 +6,7 @@ import menu from '@/public/icons/menu-alt-1-svgrepo-com.svg'
 
 const TopBar = () => {
   return (
-    <section className="bg-white flex justify-between items-center w-full p-7 ">
+    <section className="bg-white flex justify-between items-center w-[calc(100%-250px)] p-7 fixed z-40 ">
       <div className=" lg:w-[40%] flex items-center   h-10">
         <div className="flex lg:hidden items-center pr-9 mr-4 border-r">
           <Image src={menu} alt="menu-icon" />

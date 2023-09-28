@@ -11,7 +11,7 @@ h2 {
   font-size: 1.2rem;
 }
 h3 {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1rem;
 }
 h4 {
@@ -31,6 +31,12 @@ p {
   }
   .input-div-style {
     @apply flex justify-between items-center mt-5;
+  }
+  .custom-radio{
+    @apply appearance-none cursor-pointer before:transition-all before:duration-500  w-3.5 h-3.5 border rounded-full place-content-center mr-2.5 border-teal-500 before:flex before:bg-teal-500 before:rounded-full before:w-3 before:h-3 before:opacity-0 checked:before:opacity-100 
+  }
+  .custom-radio-li{
+    @apply flex justify-between w-1/2 text-gray-500 text-sm mt-5
   }
 }
 
