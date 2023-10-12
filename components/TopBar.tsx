@@ -34,7 +34,7 @@ const TopBar = () => {
         </div>
         <div className=" w-10 h-10 rounded-full bg-red-300 mr-3 ml-5"></div>
         <div>
-          <h3>Walter White</h3>
+          <h5>Walter White</h5>
           <p className="text-xs">Admin</p>
         </div>
       </div>

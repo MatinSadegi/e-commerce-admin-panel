@@ -1,10 +1,9 @@
-
 import SideBar from "@/components/SideBar";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Public_Sans } from "next/font/google";
 import TopBar from "@/components/TopBar";
-
+import Providers from "./Provider";
 
 const publicSans = Public_Sans({
   subsets: ["latin"],
@@ -23,13 +22,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${publicSans.className} grid lg:grid-cols-[250px_5fr] `}>
+      <body
+        className={`${publicSans.className} grid lg:grid-cols-[250px_5fr] `}
+      >
         <SideBar />
-        <div className="h-screen overflow-y-auto">
-          <TopBar/>
-          {children}
+        <div className="h-screen overflow-y-auto ">
+          <TopBar />
+          <div className="bg-gray-100 p-5 pt-32 min-h-full">
+            <Providers>{children}</Providers>
+          </div>
         </div>
       </body>
     </html>
   );
-}  
+}

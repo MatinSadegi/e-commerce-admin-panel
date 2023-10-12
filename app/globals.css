@@ -8,18 +8,27 @@ h1 {
 }
 h2 {
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 1.7rem;
 }
 h3 {
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.4rem;
 }
 h4 {
   font-weight: 500;
-  font-size: 0.8rem;
+  font-size: 1.2rem;
+}
+
+h5 {
+  font-weight: 500;
+  font-size: 1rem;
 }
 p {
   font-weight: 400;
+}
+th{
+  font-weight: 400;
+  font-size: small;
 }
 
 @layer components {
@@ -32,11 +41,11 @@ p {
   .input-div-style {
     @apply flex justify-between items-center mt-5;
   }
-  .custom-radio{
-    @apply appearance-none cursor-pointer before:transition-all before:duration-500  w-3.5 h-3.5 border rounded-full place-content-center mr-2.5 border-teal-500 before:flex before:bg-teal-500 before:rounded-full before:w-3 before:h-3 before:opacity-0 checked:before:opacity-100 
+  .custom-radio {
+    @apply appearance-none cursor-pointer before:transition-all before:duration-500  w-3.5 h-3.5 border rounded-full place-content-center mr-2.5 border-teal-500 before:flex before:bg-teal-500 before:rounded-full before:w-3 before:h-3 before:opacity-0 checked:before:opacity-100;
   }
-  .custom-radio-li{
-    @apply flex justify-between w-1/2 text-gray-500 text-sm mt-5
+  .custom-radio-li {
+    @apply flex justify-between w-1/2 text-gray-500 text-sm mt-5;
   }
 }
 
@@ -60,5 +69,13 @@ p {
     padding-right: 10px;
     cursor: pointer;
   }
-
+  .spinner {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: inline-block;
+    border-top: 3px solid #0d94898d;
+    border-right: 3px solid transparent;
+    box-sizing: border-box;
+  }
 }
