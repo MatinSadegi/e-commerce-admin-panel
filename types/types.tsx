@@ -4,8 +4,13 @@ export interface FormData {
   subcategory: string;
   price: number;
   description: string;
-  image:  {public_id :string , url:string};
+  image: { public_id: string; url: string };
   inventory: string;
   quantity: { sm: number; md: number; lg: number; xl: number };
-  slug:string
+  slug: string;
+}
+
+export interface AttributesData {
+  name: string;
+  values: string[];
 }

@@ -27,7 +27,11 @@ p {
   font-weight: 400;
 }
 th{
-  font-weight: 400;
+  font-weight: 700;
+  font-size: small;
+  color: #4b5563;
+}
+span{
   font-size: small;
 }
 
@@ -46,6 +50,9 @@ th{
   }
   .custom-radio-li {
     @apply flex justify-between w-1/2 text-gray-500 text-sm mt-5;
+  }
+  .teal-button{
+    @apply py-2.5 px-4 rounded-md text-sm bg-teal-500 text-white transition-all hover:bg-teal-600
   }
 }
 
